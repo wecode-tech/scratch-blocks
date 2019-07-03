@@ -334,6 +334,26 @@ Blockly.Blocks['motion_changexby'] = {
   }
 };
 
+Blockly.Blocks['motion_reducexby'] = {
+  /**
+   * Block to change X.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.MOTION_REDUCEXBY,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "RX"
+        }
+      ],
+      "category": Blockly.Categories.motion,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
+
 Blockly.Blocks['motion_setx'] = {
   /**
    * Block to set X.
@@ -366,6 +386,26 @@ Blockly.Blocks['motion_changeyby'] = {
         {
           "type": "input_value",
           "name": "DY"
+        }
+      ],
+      "category": Blockly.Categories.motion,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
+
+Blockly.Blocks['motion_reduceyby'] = {
+  /**
+   * Block to change X.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.MOTION_REDUCEYBY,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "RY"
         }
       ],
       "category": Blockly.Categories.motion,

@@ -117,6 +117,13 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
+    '<block type="motion_reducexby" id="motion_reducexby">' +
+      '<value name="RX">' +
+        '<shadow type="math_number">' +
+          '<field name="NUM">10</field>' +
+        '</shadow>' +
+      '</value>' +
+    '</block>' +
     '<block type="motion_setx" id="motion_setx">' +
       '<value name="X">' +
         '<shadow id="setx" type="math_number">' +
@@ -126,6 +133,13 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
     '<block type="motion_changeyby" id="motion_changeyby">' +
       '<value name="DY">' +
+        '<shadow type="math_number">' +
+          '<field name="NUM">10</field>' +
+        '</shadow>' +
+      '</value>' +
+    '</block>' +
+    '<block type="motion_reduceyby" id="motion_reduceyby">' +
+      '<value name="RY">' +
         '<shadow type="math_number">' +
           '<field name="NUM">10</field>' +
         '</shadow>' +
